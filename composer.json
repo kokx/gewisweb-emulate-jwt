@@ -1,0 +1,14 @@
+{
+    "name": "kokx/gewisweb-emulate-jwt",
+    "description": "Emulates GEWIS website JWT implementation",
+    "type": "project",
+    "require": {
+        "firebase/php-jwt": "^5.0"
+    },
+    "authors": [
+        {
+            "name": "Pieter Kokx",
+            "email": "pieter@kokx.nl"
+        }
+    ]
+}
