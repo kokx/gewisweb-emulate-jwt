@@ -13,6 +13,6 @@ $token = JWT::encode([
     'iat' => (new \DateTime())->getTimestamp(),
     'exp' => (new \DateTime('+5 min'))->getTimestamp(),
     'lidnr' => $lidnr
-], $key, 'HS256');
+], $secret, 'HS256');
 
 header('Location: ' . $url . '?token=' . $token);
